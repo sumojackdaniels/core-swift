@@ -44,6 +44,10 @@ public final class LocationService {
         }
     }
 
+    public func requestWhenInUseAuthorization() {
+        manager.requestWhenInUseAuthorization()
+    }
+
     public func requestAlwaysAuthorization() {
         manager.requestAlwaysAuthorization()
     }
